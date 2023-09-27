@@ -1,0 +1,77 @@
+HTTrack3.49-2 launched on Wed, 27 Sep 2023 12:29:33 at https://templatekit.jegtheme.com/robbie-and-magie/
+(winhttrack https://templatekit.jegtheme.com/robbie-and-magie/ -O "/Users/duchoang/websites/Wedding" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:31:34	Error: 	"Forbidden" (403) at link https://templatekit.jegtheme.com/robbie-and-magie/xmlrpc.php?rsd (from https://templatekit.jegtheme.com/robbie-and-magie/)
+12:31:34	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/home/
+12:31:34	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/home/ to https://templatekit.jegtheme.com/robbie-and-magie/
+12:36:52	Warning: 	Retry after error 500 (Internal Server Error) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/images/backgrounds/divider-icon.svg (from https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit.css?ver=3.13.1)
+12:36:52	Warning: 	Retry after error 500 (Internal Server Error) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/images/backgrounds/list-bullet.svg (from https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit.css?ver=3.13.1)
+12:36:52	Warning: 	Retry after error 500 (Internal Server Error) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/images/backgrounds/form-datalist.svg (from https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit.css?ver=3.13.1)
+12:53:36	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=507
+12:53:36	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=507 to https://templatekit.jegtheme.com/robbie-and-magie/home-2/
+13:59:12	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=875
+13:59:12	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=875 to https://templatekit.jegtheme.com/robbie-and-magie/bridesmaids-groomsmen/
+13:59:13	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=926
+13:59:13	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=926 to https://templatekit.jegtheme.com/robbie-and-magie/rsvp/
+13:59:13	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=1212
+13:59:13	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=1212 to https://templatekit.jegtheme.com/robbie-and-magie/gallery/
+13:59:13	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=1778
+13:59:13	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=1778 to https://templatekit.jegtheme.com/robbie-and-magie/gallery-justified/
+13:59:13	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=1683
+13:59:13	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=1683 to https://templatekit.jegtheme.com/robbie-and-magie/our-story/
+13:59:13	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=1029
+13:59:13	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=1029 to https://templatekit.jegtheme.com/robbie-and-magie/blog/
+13:59:27	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=972
+13:59:27	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=972 to https://templatekit.jegtheme.com/robbie-and-magie/contact/
+13:59:27	Warning: 	Retry after error -4 (No data (connection closed)) at link https://templatekit.jegtheme.com/robbie-and-magie/?p=1002 (from https://templatekit.jegtheme.com/robbie-and-magie/contact-2/)
+13:59:27	Warning: 	Retry after error -2 (Receive Time Out) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftemplatekit.jegtheme.com%2Frobbie-and-magie%2Fcontact-2%2F (from https://templatekit.jegtheme.com/robbie-and-magie/contact-2/)
+13:59:27	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftemplatekit.jegtheme.com%2Frobbie-and-magie%2Fcontact-2%2F&format=xml (from https://templatekit.jegtheme.com/robbie-and-magie/contact-2/)
+13:59:40	Warning: 	Retry after error -2 (Receive Time Out) at link https://templatekit.jegtheme.com/robbie-and-magie/template-kit/ (from https://templatekit.jegtheme.com/robbie-and-magie/contact-2/)
+13:59:43	Warning: 	Retry after error 500 (Internal Server Error) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/images/backgrounds/divider-icon.svg (from https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit.css?ver=3.13.1)
+13:59:45	Warning: 	Retry after error 500 (Internal Server Error) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/images/backgrounds/list-bullet.svg (from https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit.css?ver=3.13.1)
+13:59:47	Warning: 	Retry after error 500 (Internal Server Error) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/images/backgrounds/form-datalist.svg (from https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit.css?ver=3.13.1)
+13:59:49	Warning: 	Retry after error -2 (Receive Time Out) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-content/uploads/sites/5/2020/07/small-white-gypsophila-flowers-on-pastel-yellow-background-women-39-s-day-mother-39-s-day-e1595815432476.jpg (from https://templatekit.jegtheme.com/robbie-and-magie/wp-content/uploads/sites/5/elementor/css/post-507.css?ver=1680536075)
+13:59:57	Warning: 	Retry after error -2 (Receive Time Out) at link https://templatekit.jegtheme.com/robbie-and-magie/crazy-easy-steps-to-creating-your-wedding-budget/feed/ (from https://templatekit.jegtheme.com/robbie-and-magie/crazy-easy-steps-to-creating-your-wedding-budget/)
+14:00:51	Warning: 	Retry after error -2 (Receive Time Out) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-content/uploads/sites/5/elementor/css/post-2039.css?ver=1680879632 (from https://templatekit.jegtheme.com/robbie-and-magie/crazy-easy-steps-to-creating-your-wedding-budget/)
+14:00:53	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=1825
+14:00:53	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=1825 to https://templatekit.jegtheme.com/robbie-and-magie/crazy-easy-steps-to-creating-your-wedding-budget/
+14:00:54	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=1821
+14:00:54	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=1821 to https://templatekit.jegtheme.com/robbie-and-magie/our-big-family-finally-gathered/
+14:00:54	Warning: 	Retry after error -2 (Receive Time Out) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftemplatekit.jegtheme.com%2Frobbie-and-magie%2Four-big-family-finally-gathered%2F&format=xml (from https://templatekit.jegtheme.com/robbie-and-magie/our-big-family-finally-gathered/)
+14:00:54	Warning: 	Retry after error -2 (Connect Time Out) at link https://templatekit.jegtheme.com/robbie-and-magie/outdoor-pre-wedding-shoot-locations-in-bali/feed/ (from https://templatekit.jegtheme.com/robbie-and-magie/outdoor-pre-wedding-shoot-locations-in-bali/)
+14:00:54	Warning: 	Retry after error -2 (Connect Time Out) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-json/wp/v2/posts/1818 (from https://templatekit.jegtheme.com/robbie-and-magie/outdoor-pre-wedding-shoot-locations-in-bali/)
+14:00:56	Warning: 	Retry after error -2 (Connect Time Out) at link https://templatekit.jegtheme.com/robbie-and-magie/?p=1818 (from https://templatekit.jegtheme.com/robbie-and-magie/outdoor-pre-wedding-shoot-locations-in-bali/)
+14:00:57	Warning: 	Retry after error -2 (Connect Time Out) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftemplatekit.jegtheme.com%2Frobbie-and-magie%2Foutdoor-pre-wedding-shoot-locations-in-bali%2F (from https://templatekit.jegtheme.com/robbie-and-magie/outdoor-pre-wedding-shoot-locations-in-bali/)
+14:00:57	Warning: 	Retry after error -2 (Connect Time Out) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftemplatekit.jegtheme.com%2Frobbie-and-magie%2Foutdoor-pre-wedding-shoot-locations-in-bali%2F&format=xml (from https://templatekit.jegtheme.com/robbie-and-magie/outdoor-pre-wedding-shoot-locations-in-bali/)
+14:00:58	Warning: 	Retry after error -2 (Connect Time Out) at link https://templatekit.jegtheme.com/robbie-and-magie/wp-content/uploads/sites/5/2020/07/couple-with-bridesmaids-4DMK96U.jpg (from https://templatekit.jegtheme.com/robbie-and-magie/wp-content/uploads/sites/5/elementor/css/post-875.css?ver=1680509404)
+14:00:58	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=1050
+14:00:58	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=1050 to https://templatekit.jegtheme.com/robbie-and-magie/how-to-plan-a-beach-destination-wedding/
+14:00:59	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=1045
+14:00:59	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=1045 to https://templatekit.jegtheme.com/robbie-and-magie/top-bridal-bouquets-youll-fall-in-love-with/
+14:00:59	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=1046
+14:00:59	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=1046 to https://templatekit.jegtheme.com/robbie-and-magie/how-to-find-the-perfect-wedding-dress/
+14:01:08	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=1002
+14:01:08	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=1002 to https://templatekit.jegtheme.com/robbie-and-magie/contact-2/
+14:01:08	Error: 	"Internal Server Error" (500) after 2 retries at link https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/images/backgrounds/divider-icon.svg (from https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit.css?ver=3.13.1)
+14:01:08	Error: 	"Internal Server Error" (500) after 2 retries at link https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/images/backgrounds/list-bullet.svg (from https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit.css?ver=3.13.1)
+14:01:08	Error: 	"Internal Server Error" (500) after 2 retries at link https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/images/backgrounds/form-datalist.svg (from https://templatekit.jegtheme.com/robbie-and-magie/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit.css?ver=3.13.1)
+14:01:08	Error: 	"Not Found" (404) at link https://templatekit.jegtheme.com/robbie-and-magie/2020/07/22/page/2/ (from https://templatekit.jegtheme.com/robbie-and-magie/2020/07/22/)
+14:01:08	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=1818
+14:01:08	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=1818 to https://templatekit.jegtheme.com/robbie-and-magie/outdoor-pre-wedding-shoot-locations-in-bali/
+14:01:08	Error: 	"Not Found" (404) at link https://templatekit.jegtheme.com/robbie-and-magie/2020/07/13/page/2/ (from https://templatekit.jegtheme.com/robbie-and-magie/2020/07/13/)
+14:01:08	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=596
+14:01:08	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=596 to https://templatekit.jegtheme.com/robbie-and-magie/the-biggest-regret-couples-have-about-this/
+14:01:08	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=594
+14:01:08	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=594 to https://templatekit.jegtheme.com/robbie-and-magie/how-to-plan-a-perfect-wedding-in-moments/
+14:01:08	Warning: 	Moved Permanently for https://templatekit.jegtheme.com/robbie-and-magie/?p=592
+14:01:08	Warning: 	File has moved from https://templatekit.jegtheme.com/robbie-and-magie/?p=592 to https://templatekit.jegtheme.com/robbie-and-magie/every-bride-should-know-about-planning-a-wedding/
+14:01:09	Error: 	"Not Found" (404) at link https://templatekit.jegtheme.com/robbie-and-magie/2020/07/03/page/2/ (from https://templatekit.jegtheme.com/robbie-and-magie/2020/07/03/)
+14:01:10	Error: 	"Not Found" (404) at link https://templatekit.jegtheme.com/robbie-and-magie/template-kit/page/3/ (from https://templatekit.jegtheme.com/robbie-and-magie/template-kit/page/2/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 31 minutes 37 seconds : 298 links scanned, 250 files written (23319060 bytes overall) [16186603 bytes received at 2944 bytes/sec], 23266186 bytes transferred using HTTP compression in 249 files, ratio 66%, 7.8 requests per connection
+(8 errors, 58 warnings, 0 messages)
