@@ -32,6 +32,10 @@
 			padding: 0 !important;
 		}
 	</style>
+	<!-- css boostrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 	<link rel='stylesheet' id='bdt-uikit-css'
 		href='wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit2916.css?ver=3.13.1' media='all' />
 	<link rel='stylesheet' id='ep-helper-css'
@@ -45,9 +49,9 @@
 	<style>
 		.fixed-icon {
 			position: fixed;
-			top: 20px;
+			bottom: 40px;
 			/* Điều chỉnh top để đặt biểu tượng ở vị trí mong muốn */
-			left: 20px;
+			left: 10px;
 			/* Điều chỉnh left để đặt biểu tượng ở vị trí mong muốn */
 			z-index: 9999;
 			/* Điều chỉnh z-index để đảm bảo biểu tượng ở trên mọi phần tử khác */
@@ -1575,7 +1579,7 @@
 			<div class="elementor-background-overlay"></div>
 			<div class="elementor-container elementor-column-gap-default">
 				<!-- input -->
-				<div class="elementor-column elementor-col-60 elementor-top-column elementor-element elementor-element-7a78d69"
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7a78d69"
 					data-id="7a78d69" data-element_type="column"
 					data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
 					<div class="elementor-widget-wrap elementor-element-populated">
@@ -1606,81 +1610,104 @@
 							data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
 							data-widget_type="form.default">
 							<div class="elementor-widget-container">
-								<form class="elementor-form" method="post" name="myForm">
-									<input type="hidden" name="post_id" value="4" />
-									<input type="hidden" name="form_id" value="d8603e4" />
-									<input type="hidden" name="referer_title" value="" />
-
-									<input type="hidden" name="queried_id" value="4" />
-
-									<div class="elementor-form-fields-wrapper elementor-labels-">
-										<div
-											class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100 elementor-sm-100">
-											<input size="1" type="text" id="guestName" name="guestName"
-												class="elementor-field elementor-size-sm  elementor-field-textual"
-												placeholder="Nhập họ tên">
-										</div>
-										<div
-											class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-field_1 elementor-col-100 elementor-field-required">
-											<textarea class="elementor-field-textual elementor-field  elementor-size-sm"
-												id="invitationMessage" name="invitationMessage" rows="4"
-												placeholder="Nhập lời chúc của bạn" required="required"
-												aria-required="true"></textarea>
-										</div>
-										<div
-											class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-											<button type="button" onclick="displayInfo()"
-												class="elementor-button elementor-size-lg">
-												<span>
-													<span class=" elementor-button-icon">
-													</span>
-													<span class="elementor-button-text">Gửi lời chúc</span>
-												</span>
-											</button>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- hiển thị lời nhắn -->
-				<div class="elementor-column elementor-col-60 elementor-top-column elementor-element elementor-element-7a78d69"
-					data-id="7a78d69" data-element_type="column"
-					data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-					<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-3053d63 elementor-widget elementor-widget-heading"
-							data-id="3053d63" data-element_type="widget" data-widget_type="heading.default">
-
-						</div>
-						<div class="elementor-element elementor-element-d8603e4 elementor-button-align-stretch elementor-widget elementor-widget-form"
-							data-id="d8603e4" data-element_type="widget"
-							data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
-							data-widget_type="form.default">
-							<div class="elementor-widget-container">
-
-
-								<div class="elementor-form-fields-wrapper elementor-labels-">
-
-
-									<div
-										class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-field_1 elementor-col-100 elementor-field-required">
-										<textarea class="elementor-field-textual elementor-field  elementor-size-sm"
-											name="form_fields[field_1]" id="form-field-field_1" rows="4"
-											required="required" aria-required="true"></textarea>
-										<div id="displayArea">
-											<!-- Thông tin sẽ được hiển thị ở đây sau khi người dùng gửi biểu mẫu -->
-										</div>
-									</div>
-
+								<!-- box lơì chúc -->
+								<div
+									style="height:420px;width:660px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+									<iframe
+										src="https://docs.google.com/forms/d/e/1FAIpQLSd0Oy1g9v6yqvT83hoItru8i9eA-aXG6Bux_MFlULV6KmcHHg/viewform?embedded=true"
+										width="640" height="1237" frameborder="0" marginheight="0" marginwidth="0">Đang
+										tải…</iframe>
 								</div>
 
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+
 		</section>
+		<!--  hiển thị lời chúc -->
+		<!-- <section name="fomr-input"
+			class="elementor-section elementor-top-section elementor-element elementor-element-7f068da elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+			data-id="7f068da" data-element_type="section"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-background-overlay"></div>
+			<div class="elementor-container elementor-column-gap-default">
+				<!-- input -->
+		<!-- <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7a78d69"
+					data-id="7a78d69" data-element_type="column"
+					data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3053d63 elementor-widget elementor-widget-heading"
+							data-id="3053d63" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default">Lời nhắn</h2>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-6b652f5 elementor-widget elementor-widget-image"
+							data-id="6b652f5" data-element_type="widget" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<img width="768" height="114"
+									src="wp-content/uploads/sites/5/2020/07/ornament-768x114.png"
+									class="attachment-medium_large size-medium_large wp-image-2069" alt=""
+									decoding="async" loading="lazy"
+									srcset="https://templatekit.jegtheme.com/robbie-and-magie/wp-content/uploads/sites/5/2020/07/ornament-768x114.png 768w, https://templatekit.jegtheme.com/robbie-and-magie/wp-content/uploads/sites/5/2020/07/ornament-300x45.png 300w, https://templatekit.jegtheme.com/robbie-and-magie/wp-content/uploads/sites/5/2020/07/ornament-600x89.png 600w, https://templatekit.jegtheme.com/robbie-and-magie/wp-content/uploads/sites/5/2020/07/ornament.png 1024w"
+									sizes="(max-width: 768px) 100vw, 768px" />
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-8b8c639 elementor-widget elementor-widget-text-editor"
+							data-id="8b8c639" data-element_type="widget" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+								We can&#8217;t wait to celebrate our special day with you. </div>
+						</div>
+						<div class="elementor-element elementor-element-d8603e4 elementor-button-align-stretch elementor-widget elementor-widget-form"
+							data-id="d8603e4" data-element_type="widget"
+							data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
+							data-widget_type="form.default">
+							<div class="elementor-widget-container">
+								box lơì chúc -->
+		<!-- <div
+									style="height:420px;width:660px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+									<div name="table"> -->
+		<!-- On tables
+										<table class="table-primary">...</table>
+										<table class="table-secondary">...</table>
+										<table class="table-success">...</table>
+										<table class="table-danger">...</table>
+										<table class="table-warning">...</table>
+										<table class="table-info">...</table>
+										<table class="table-light">...</table>
+										<table class="table-dark">...</table>
+
+										<!-- On rows -->
+		<!-- <tr class="table-primary">Hiên Trần</tr>
+										<tr class="table-secondary">...</tr>
+										<tr class="table-success">...</tr>
+										<tr class="table-danger">...</tr>
+										<tr class="table-warning">...</tr>
+										<tr class="table-info">...</tr>
+										<tr class="table-light">...</tr>
+										<tr class="table-dark">...</tr> -->
+
+		<!-- On cells (`td` or `th`) -->
+		<!-- <tr>
+											<td class="table-primary">chúc 2 bạn trăm năm hạnh phúc</td>
+											<td class="table-secondary">...</td>
+											<td class="table-success">...</td>
+											<td class="table-danger">...</td>
+											<td class="table-warning">...</td>
+											<td class="table-info">...</td>
+											<td class="table-light">...</td>
+											<td class="table-dark">...</td>
+										</tr>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+		</section> -->
 		<section name="footer"
 			class="elementor-section elementor-top-section elementor-element elementor-element-b12ca92 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
 			data-id="b12ca92" data-element_type="section">
@@ -1744,6 +1771,17 @@
 </html>
 
 
+<!-- js boostrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+	crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+	integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+	crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+	integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+	crossorigin="anonymous"></script>
+<!--  -->
 
 <link rel='stylesheet' id='jeg-dynamic-style-css'
 	href='wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles6f3e.css?ver=1.3.0'
@@ -1816,7 +1854,6 @@
 	id='elementskit-elementor-js'></script>
 <script src='wp-content/plugins/elementor/assets/lib/swiper/swiper.min42e1.js?ver=2.8.5' id='swiper-js'></script>
 
-//iconMusic
 
 <script>
 	var audioState = false; // Ban đầu âm thanh tắt
@@ -1848,7 +1885,7 @@
 	}
 
 </script>
-//
+
 <script>
 	function updateCountdown() {
 		const targetDate = new Date('2023-10-29T11:00:00');
