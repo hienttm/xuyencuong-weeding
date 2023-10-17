@@ -17,18 +17,7 @@ router.post("/sendWish", function (req, res, next) {
   data.unshift(newWish);
   data = JSON.stringify(data);
   fs.writeFileSync("data.JSON", data);
-});
-//delete lời chúc
-router.get("/guest/delete/:name", function (req, res, next) {
-  let name = req.params.name;
-  let data = fs.readFileSync("./data.JSON");
-  data = JSON.parse(data);
-  data = data.filter((item) => {
-    return item.name != name;
-  });
-  data = JSON.stringify(data);
-  fs.writeFileSync("guest.JSON", data);
-  res.redirect("/guest");
+  res.redirect("/listWish");
 });
 
 //Khách mời
