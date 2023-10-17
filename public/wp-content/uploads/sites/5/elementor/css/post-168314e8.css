@@ -201,7 +201,7 @@
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin-top: -100px;
     margin-bottom: 0px;
-    padding: 200px 0px 160px 0px;
+    padding: 100px 0px 100px 0px;
 }
 
 .elementor-1683 .elementor-element.elementor-element-75d7f6f>.elementor-background-overlay {
@@ -214,7 +214,7 @@
     font-size: 35px;
     font-weight: 300;
     font-style: italic;
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 .elementor-1683 .elementor-element.elementor-element-d959aa1 .elementor-blockquote__content+.e-q-footer {
@@ -224,10 +224,12 @@
 .elementor-1683 .elementor-element.elementor-element-d959aa1 .elementor-blockquote__author {
     color: #A78556;
     font-family: "Muli", Sans-serif;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 5px;
+    padding-top: 50px;
+
 }
 
 .elementor-1683 .elementor-element.elementor-element-d959aa1 .elementor-blockquote:before {
@@ -278,9 +280,9 @@
 }
 
 .elementor-1683 .elementor-element.elementor-element-8146cf0 {
-    color: #9B9B9B;
+    color: #737373;
     font-family: "Cormorant Garamond", Sans-serif;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 300;
     font-style: italic;
 }
@@ -428,7 +430,7 @@
     }
 
     .elementor-1683 .elementor-element.elementor-element-1adbebd {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .elementor-1683 .elementor-element.elementor-element-1adbebd>.elementor-widget-container {
@@ -453,7 +455,7 @@
     }
 
     .elementor-1683 .elementor-element.elementor-element-8c451b9 {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .elementor-1683 .elementor-element.elementor-element-8c451b9>.elementor-widget-container {
@@ -481,7 +483,7 @@
     }
 
     .elementor-1683 .elementor-element.elementor-element-b9ddf48 {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .elementor-1683 .elementor-element.elementor-element-b9ddf48>.elementor-widget-container {
@@ -538,7 +540,7 @@
     }
 
     .elementor-1683 .elementor-element.elementor-element-8146cf0 {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .elementor-1683 .elementor-element.elementor-element-8146cf0>.elementor-widget-container {
@@ -583,11 +585,11 @@
     }
 
     .elementor-1683 .elementor-element.elementor-element-3f9e6fa {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .elementor-1683 .elementor-element.elementor-element-f3fd65a {
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .elementor-1683 .elementor-element.elementor-element-f3fd65a>.elementor-widget-container {
@@ -595,7 +597,7 @@
     }
 
     .elementor-1683 .elementor-element.elementor-element-1adbebd {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .elementor-1683 .elementor-element.elementor-element-d38ba92>.elementor-element-populated>.elementor-widget-wrap {
@@ -621,7 +623,7 @@
     }
 
     .elementor-1683 .elementor-element.elementor-element-8c451b9 {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .elementor-1683 .elementor-element.elementor-element-97c188d {
@@ -649,7 +651,7 @@
     }
 
     .elementor-1683 .elementor-element.elementor-element-b9ddf48 {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .elementor-1683 .elementor-element.elementor-element-75d7f6f {
@@ -659,7 +661,7 @@
     }
 
     .elementor-1683 .elementor-element.elementor-element-d959aa1 .elementor-blockquote__content {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .elementor-1683 .elementor-element.elementor-element-d959aa1 .elementor-blockquote__content+.e-q-footer {
@@ -667,7 +669,7 @@
     }
 
     .elementor-1683 .elementor-element.elementor-element-d959aa1 .elementor-blockquote__author {
-        font-size: 11px;
+        font-size: 18px;
     }
 
     .elementor-1683 .elementor-element.elementor-element-d959aa1 .elementor-blockquote:before {
@@ -692,7 +694,7 @@
 
     .elementor-1683 .elementor-element.elementor-element-8146cf0 {
         text-align: left;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .elementor-1683 .elementor-element.elementor-element-8146cf0>.elementor-widget-container {
